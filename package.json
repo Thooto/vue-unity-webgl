@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/votetake/vue-unity-webgl.git"
+    "url": "git+https://github.com/thooto/vue-unity-webgl.git"
   },
   "keywords": [
     "vue",
@@ -20,9 +20,9 @@
   "author": "votetake",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/votetake/vue-unity-webgl/issues"
+    "url": "https://github.com/thooto/vue-unity-webgl/issues"
   },
-  "homepage": "https://github.com/votetake/vue-unity-webgl#readme",
+  "homepage": "https://github.com/thooto/vue-unity-webgl#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.0",
