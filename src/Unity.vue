@@ -41,6 +41,12 @@
         } else {
           console.warn('vue-unity-webgl: you\'ve sent a message to the Unity content, but it wasn\t instantiated yet.')
         }
+      },
+
+      on(eventName, eventCallback) {
+        window.ReactUnityWebGL[eventName] = parameter => {
+          return eventCallback(parameter);
+        };
       }
     },
     beforeMount() {
